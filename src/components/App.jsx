@@ -1,15 +1,11 @@
 import React, { useState } from "react";
 
 function App() {
-  let  = new Date().toLocaleTimeString();
+  let now = new Date().toLocaleTimeString();
 
-  
-  
-  
   function refreshPage() {
     window.location.reload();
   }
-
 
   setInterval(refreshPage, 1000);
   return (
