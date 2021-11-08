@@ -3,15 +3,22 @@ import React, { useState } from "react";
 function App() {
   let now = new Date().toLocaleTimeString();
 
-  function refreshPage() {
-    window.location.reload();
+  let [time, setTime] = useState(now);
+
+  function updateTime() {
+    const newTime = new Date().toLocaleTimeString();
+    setTime(newTime);
   }
 
-  setInterval(refreshPage, 1000);
+  // function refreshPage() {
+  //   window.location.reload();
+  // }
+
+  // setInterval(refreshPage, 1000);
   return (
     <div className="container">
       <h1>{time}</h1>
-      <button onClick={refreshPage}>getTime</button>
+      <button onClick={updateTime}>getTime</button>
     </div>
   );
 }
