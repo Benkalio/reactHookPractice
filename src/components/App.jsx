@@ -1,11 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 function App() {
-  let time = new Date().toLocaleTimeString();
+  let  = new Date().toLocaleTimeString();
 
+  
+  
+  
   function refreshPage() {
     window.location.reload();
   }
+
+
   setInterval(refreshPage, 1000);
   return (
     <div className="container">
