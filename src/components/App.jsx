@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="container">
       <h1>{time}</h1>
-      <button>Get Time</button>
+      <button onClick={refreshPage}>Get Time</button>
     </div>
   );
 }
