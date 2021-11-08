@@ -4,7 +4,7 @@ body {
   padding: 50px;
   width: 300px;
   margin: 0 auto;
-  background-color: #374954;
+  background-color: #1c052e;
   text-align: center;
 }
 
@@ -18,7 +18,7 @@ h1 {
 
 button {
   display: inline;
-  background-color: #6bbe92;
+  background-color: #0d1474;
   border: 0;
   border-radius: 10px;
   box-shadow: 5px;
