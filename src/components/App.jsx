@@ -14,7 +14,7 @@ function App() {
   //   window.location.reload();
   // }
 
-  // setInterval(refreshPage, 1000);
+  setInterval(updateTime, 1000);
   return (
     <div className="container">
       <h1>{time}</h1>
