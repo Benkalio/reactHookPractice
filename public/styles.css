@@ -20,6 +20,7 @@ button {
   display: inline;
   background-color: #0d1474;
   border: 0;
+  padding: 2px 5px;
   border-radius: 10px;
   box-shadow: 5px;
   margin: 10px;
