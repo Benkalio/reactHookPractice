@@ -11,8 +11,6 @@ function App() {
   }
 
   // function refreshPage() {
-  //   window.location.reload();
-  // }
 
   setInterval(updateTime, 1000);
   return (
