@@ -10,8 +10,6 @@ function App() {
     setTime(newTime);
   }
 
-  // function refreshPage() {
-
   setInterval(updateTime, 1000);
   return (
     <div className="container">
